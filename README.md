@@ -1,4 +1,4 @@
-# 👋 Hi, I'm 你的用户名
+# 👋 Hi, I'm arookieofc
 
 A developer focused on **system底层技术** & **AI large model applications**.
 
@@ -42,10 +42,10 @@ A developer focused on **system底层技术** & **AI large model applications**.
 ---
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=transparent&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=transparent&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=arookieofc&show_icons=true&theme=transparent&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arookieofc&layout=compact&theme=transparent&hide_border=true)
 
 ---
 
 ## 📫 Find Me
-- GitHub: [https://github.com/你的用户名](https://github.com/你的用户名)
+- GitHub: [https://github.com/你的用户名](https://github.com/arookieofc)
