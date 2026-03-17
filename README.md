@@ -35,7 +35,7 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=a-rookie-of-C-language&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&locale=cn)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=a-rookie-of-C-language&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&locale=cn&cache_seconds=1800)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a-rookie-of-C-language&layout=compact&theme=tokyonight&hide_border=true&locale=cn)
 
