@@ -2,7 +2,9 @@
 
 # 👋 你好，我是 a-rookie-of-C-language
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=无情的代码机器;二次元爱好者)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=无情的代码机器;二次元爱好者;)
+
+[![Metrics](https://github.com/a-rookie-of-C-language/a-rookie-of-C-language/actions/workflows/metrics.yml/badge.svg)](https://github.com/a-rookie-of-C-language/a-rookie-of-C-language/actions/workflows/metrics.yml)
 
 </div>
 
@@ -10,14 +12,14 @@
 
 ## 🙋 关于我
 
-- 🌱 正在深入学习 **全栈**，不断探索更广阔的编程世界
-- 💡 对**系统编程**、**算法与数据结构**、**开源项目**充满热情
-- 🎯 目标：写出简洁、高效、可读性强的代码
-- 📫 欢迎通过 GitHub Issues 或 Discussions 与我交流
+- 🌱 正在深入学习 **全栈开发**，持续提升工程能力
+- 💡 对 **系统编程**、**算法与数据结构**、**开源协作** 很感兴趣
+- 🎯 目标：写出简洁、高效、可维护的代码
+- 📫 欢迎通过 **Issues / Discussions** 交流
 
 ---
 
-## 🛠️ 技术栈
+## 🛠 技术栈
 
 <div align="center">
 
@@ -35,16 +37,15 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=a-rookie-of-C-language&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&locale=cn&cache_seconds=1800)
+![GitHub Metrics Overview](/github-metrics.svg)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a-rookie-of-C-language&layout=compact&theme=tokyonight&hide_border=true&locale=cn)
+![GitHub Metrics Languages](/github-metrics-languages.svg)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=a-rookie-of-C-language&theme=tokyonight&hide_border=true&locale=zh_Hans)
+![GitHub Metrics Habits](/github-metrics-habits.svg)
 
 </div>
 
 ---
-
 
 ## 📈 贡献热力图
 
@@ -60,6 +61,6 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=a-rookie-of-C-language&color=58A6FF&style=flat-square&label=访问次数)
 
-*"每一位高级开发工程师都曾是初学者。" —— 坚持写代码，持续成长！ 🚀*
+"每一位高级开发工程师都曾是初学者。"
 
 </div>
