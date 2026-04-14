@@ -17,7 +17,7 @@ jobs:
       - name: Overview metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          token: ${{ github.token }}
           user: a-rookie-of-C-language
           filename: github-metrics.svg
           template: classic
@@ -27,7 +27,7 @@ jobs:
       - name: Languages metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          token: ${{ github.token }}
           user: a-rookie-of-C-language
           filename: github-metrics-languages.svg
           template: classic
@@ -45,7 +45,7 @@ jobs:
       - name: Calendar metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          token: ${{ github.token }}
           user: a-rookie-of-C-language
           filename: github-metrics-calendar.svg
           template: classic
@@ -53,3 +53,4 @@ jobs:
           config_timezone: Asia/Shanghai
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
