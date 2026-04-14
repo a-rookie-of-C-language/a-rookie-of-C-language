@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   github-metrics:
@@ -17,7 +14,7 @@ jobs:
       - name: Overview metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: a-rookie-of-C-language
           filename: github-metrics.svg
           template: classic
