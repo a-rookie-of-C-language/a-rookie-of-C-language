@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 👋 你好，我是 a-rookie-of-C-language
 
@@ -41,7 +41,7 @@
 
 ![GitHub Metrics Languages](/github-metrics-languages.svg)
 
-![GitHub Metrics Habits](/github-metrics-habits.svg)
+![GitHub Metrics Calendar](/github-metrics-calendar.svg)
 
 </div>
 
@@ -64,3 +64,4 @@
 "每一位高级开发工程师都曾是初学者。"
 
 </div>
+

@@ -17,20 +17,17 @@ jobs:
       - name: Overview metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: a-rookie-of-C-language
           filename: github-metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: detailed
 
       - name: Languages metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: a-rookie-of-C-language
           filename: github-metrics-languages.svg
           template: classic
@@ -39,23 +36,20 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
-          plugin_languages_sections: most-used
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_details: percentage
+          plugin_languages_categories: programming
+          plugin_languages_recent_days: 365
           plugin_languages_analysis_timeout: 15
 
-      - name: Habits metrics
+      - name: Calendar metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: a-rookie-of-C-language
-          filename: github-metrics-habits.svg
+          filename: github-metrics-calendar.svg
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 30
-          plugin_habits_charts: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
