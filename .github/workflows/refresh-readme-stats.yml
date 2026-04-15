@@ -1,0 +1,35 @@
+name: Refresh Readme Stats
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download github-readme-stats cards
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/stats
+
+          curl -fsSL --retry 5 --retry-delay 2 \
+            "https://github-readme-stats.vercel.app/api?username=a-rookie-of-C-language&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&locale=cn&rank_icon=github" \
+            -o assets/stats/github-stats.svg
+
+          curl -fsSL --retry 5 --retry-delay 2 \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=a-rookie-of-C-language&layout=compact&theme=tokyonight&hide_border=true&locale=cn&langs_count=10" \
+            -o assets/stats/top-langs.svg
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh github-readme-stats cards"
+          file_pattern: assets/stats/*.svg
