@@ -21,13 +21,8 @@ jobs:
           mkdir -p assets/stats
 
           curl -fsSL --retry 5 --retry-delay 2 \
-            "https://github-readme-stats.vercel.app/api?username=a-rookie-of-C-language&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&locale=cn&rank_icon=github" \
-            -o assets/stats/github-stats.svg
-
-          curl -fsSL --retry 5 --retry-delay 2 \
             "https://github-readme-stats.vercel.app/api/top-langs/?username=a-rookie-of-C-language&layout=compact&theme=tokyonight&hide_border=true&locale=cn&langs_count=10" \
             -o assets/stats/top-langs.svg
-
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
