@@ -35,8 +35,6 @@
 
 <div align="center">
 
-![GitHub Stats](/assets/stats/github-stats.svg)
-
 ![Top Languages](/assets/stats/top-langs.svg)
 
 </div>
