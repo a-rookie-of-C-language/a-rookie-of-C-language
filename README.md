@@ -1,7 +1,7 @@
-<h1 align="center">Hi, I'm a-rookie-of-C-language</h1>
+<h1 align="center">你好，我是 a-rookie-of-C-language</h1>
 
 <p align="center">
-  I build AI systems, backend platforms, Rust infrastructure, and developer tools.
+  我在构建 AI 系统、后端平台、Rust 基础设施和开发者工具。
 </p>
 
 <p align="center">
@@ -14,59 +14,57 @@
   <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Rust%20%7C%20Backend%20%7C%20Fullstack-555?style=flat-square" alt="focus" />
 </p>
 
-## About
+## 关于我
 
-I like building software that sits close to the real machinery: model gateways,
-RAG pipelines, agent workspaces, distributed backend services, command-line
-tools, and Rust experiments that re-create systems I want to understand deeply.
+我喜欢写离真实系统更近的软件：模型网关、RAG 检索链路、Agent 工作空间、
+分布式后端服务、命令行工具，以及一些为了理解底层机制而从零实现的 Rust 项目。
 
-My local workspace is a mix of production-style apps and learning-by-building
-projects: Spring Boot services, React and Tauri frontends, LangGraph agents,
-Rust frameworks, C++ Windows tooling, and Python AI services.
+我的本地工作区里既有偏工程落地的应用，也有学习型项目：Spring Boot 服务、
+React / Tauri 前端、LangGraph Agent、Rust 框架实验、C++ Windows 工具和 Python AI 服务。
 
-## What I Work With
+## 技术栈
 
 <p>
   <img src="https://skillicons.dev/icons?i=rust,java,ts,react,python,cpp,go,spring,fastapi,nodejs,vite,tauri,mysql,postgres,redis,docker,git,githubactions" alt="skills" />
 </p>
 
-| Area | Tools and topics |
+| 方向 | 技术与主题 |
 | --- | --- |
-| AI engineering | RAG, LangGraph, MCP, model gateway design, OpenAI-compatible APIs |
-| Backend | Spring Boot, Fastify, Axum, REST, SSE, JWT, layered architecture, DDD |
-| Systems | Rust, C++, shell tools, command parsing, message queues, storage experiments |
-| Frontend | React, TypeScript, Vite, Ant Design, Tauri desktop apps |
-| Data and infra | PostgreSQL, pgvector, MySQL, Redis, RabbitMQ, Chroma, SQLite, Docker |
+| AI 工程 | RAG、LangGraph、MCP、模型网关、OpenAI 兼容 API |
+| 后端开发 | Spring Boot、Fastify、Axum、REST、SSE、JWT、分层架构、DDD |
+| 系统编程 | Rust、C++、Shell 工具、命令解析、消息队列、存储实验 |
+| 前端开发 | React、TypeScript、Vite、Ant Design、Tauri 桌面应用 |
+| 数据与基础设施 | PostgreSQL、pgvector、MySQL、Redis、RabbitMQ、Chroma、SQLite、Docker |
 
-## Featured Projects
+## 代表项目
 
-| Project | What it is |
+| 项目 | 简介 |
 | --- | --- |
-| [advisor-ai-platform](https://github.com/a-rookie-of-C-language/advisor-ai-platform) | Full-stack AI advisor platform with React, Spring Boot, Python RAG services, PostgreSQL, pgvector, and Ollama integration. |
-| [ferryllm](https://github.com/a-rookie-of-C-language/ferryllm) | Desktop-first LLM gateway and launcher built with Rust and Tauri, supporting OpenAI-compatible, Anthropic-compatible, and Responses-style routing. |
-| [WinuxCmd](https://github.com/a-rookie-of-C-language/WinuxCmd) | GNU-style command toolkit for Windows shells, focused on native Windows workflows and familiar text pipelines. |
-| [AI_Gateway](https://github.com/a-rookie-of-C-language/AI_Gateway) | Rust model gateway with DDD-style layering, tenant API keys, rate limiting, streaming chat, and provider integration boundaries. |
-| [rust-spring](https://github.com/a-rookie-of-C-language/rust-spring) | A Rust re-imagining of Spring-style IoC, dependency injection, configuration, and annotation-like macros. |
-| [arookieofcMQ](https://github.com/a-rookie-of-C-language/arookieofcMQ) | A from-scratch Rust message queue learning project inspired by RocketMQ concepts. |
-| [winuxsh](https://github.com/a-rookie-of-C-language/winuxsh) | A Unix-style shell experience for Windows, written in Rust, with completion, themes, history, scripting, and plugins. |
-| [VD_spring](https://github.com/a-rookie-of-C-language/VD_spring) | Volunteer-hours management system using Spring Boot, Spring Security, MyBatis, RabbitMQ, Redis, MySQL, and Docker. |
-| [WorkBranch](https://github.com/EfficiencAI/WorkBranch) | AI workspace built around LangGraph multi-agent orchestration, code exploration, file operations, planning, and a React canvas UI. |
+| [advisor-ai-platform](https://github.com/a-rookie-of-C-language/advisor-ai-platform) | 全栈 AI 顾问平台，包含 React 前端、Spring Boot 后端、Python RAG 服务、PostgreSQL、pgvector 和 Ollama 集成。 |
+| [ferryllm](https://github.com/a-rookie-of-C-language/ferryllm) | 基于 Rust 和 Tauri 的桌面优先 LLM 网关与启动器，支持 OpenAI / Anthropic / Responses 风格协议路由。 |
+| [WinuxCmd](https://github.com/a-rookie-of-C-language/WinuxCmd) | 面向 Windows Shell 的 GNU 风格命令工具集，让 Windows 下的文本管道更接近熟悉的 Unix 工作流。 |
+| [AI_Gateway](https://github.com/a-rookie-of-C-language/AI_Gateway) | Rust 实现的模型网关，采用 DDD 分层，支持租户 API Key、限流、流式聊天和 Provider 适配边界。 |
+| [rust-spring](https://github.com/a-rookie-of-C-language/rust-spring) | 用 Rust 重新理解 Spring 风格的 IoC、依赖注入、配置系统和注解式宏。 |
+| [arookieofcMQ](https://github.com/a-rookie-of-C-language/arookieofcMQ) | 从零实现的 Rust 消息队列学习项目，用来拆解 RocketMQ 等消息中间件的核心概念。 |
+| [winuxsh](https://github.com/a-rookie-of-C-language/winuxsh) | Rust 编写的 Windows 上类 Unix Shell，包含补全、主题、历史记录、脚本和插件能力。 |
+| [VD_spring](https://github.com/a-rookie-of-C-language/VD_spring) | 志愿时长管理系统，使用 Spring Boot、Spring Security、MyBatis、RabbitMQ、Redis、MySQL 和 Docker。 |
+| [WorkBranch](https://github.com/EfficiencAI/WorkBranch) | 基于 LangGraph 多 Agent 编排的 AI 工作空间，支持代码探索、文件操作、任务规划和 React 画布 UI。 |
 
-## Current Interests
+## 近期关注
 
-- Building practical AI developer tooling instead of demos that stop at the prompt.
-- Turning backend systems into observable, testable, and maintainable products.
-- Rebuilding infrastructure ideas in Rust to understand the tradeoffs under the API.
-- Making Windows a first-class development environment for command-line workflows.
+- 构建真正能进入工作流的 AI 开发者工具，而不只是停留在 Prompt Demo。
+- 把后端系统做得可观测、可测试、可维护。
+- 用 Rust 复刻基础设施思想，在实现里理解架构取舍。
+- 让 Windows 成为更顺手的一等命令行开发环境。
 
-## GitHub Stats
+## GitHub 数据
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=a-rookie-of-C-language&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a-rookie-of-C-language&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
 </p>
 
-## Contact
+## 联系我
 
 - GitHub: [@a-rookie-of-C-language](https://github.com/a-rookie-of-C-language)
 - Repositories: [github.com/a-rookie-of-C-language?tab=repositories](https://github.com/a-rookie-of-C-language?tab=repositories)
