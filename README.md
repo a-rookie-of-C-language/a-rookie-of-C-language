@@ -1,62 +1,72 @@
-<div align="center">
+<h1 align="center">Hi, I'm a-rookie-of-C-language</h1>
 
-# 👋 你好，我是 a-rookie-of-C-language
+<p align="center">
+  I build AI systems, backend platforms, Rust infrastructure, and developer tools.
+</p>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=无情的代码机器;二次元爱好者;持续学习+持续输出)
+<p align="center">
+  <a href="https://github.com/a-rookie-of-C-language">
+    <img src="https://komarev.com/ghpvc/?username=a-rookie-of-C-language&style=flat-square&color=0e75b6" alt="profile views" />
+  </a>
+  <a href="https://github.com/a-rookie-of-C-language?tab=repositories">
+    <img src="https://img.shields.io/badge/Open%20Source-active-2ea44f?style=flat-square" alt="open source" />
+  </a>
+  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Rust%20%7C%20Backend%20%7C%20Fullstack-555?style=flat-square" alt="focus" />
+</p>
 
-</div>
+## About
 
----
+I like building software that sits close to the real machinery: model gateways,
+RAG pipelines, agent workspaces, distributed backend services, command-line
+tools, and Rust experiments that re-create systems I want to understand deeply.
 
-## 🙋 关于我
+My local workspace is a mix of production-style apps and learning-by-building
+projects: Spring Boot services, React and Tauri frontends, LangGraph agents,
+Rust frameworks, C++ Windows tooling, and Python AI services.
 
-- 🌱 正在深入学习 **全栈开发**，持续提升工程能力
-- 💡 对 **系统编程**、**算法与数据结构**、**开源协作** 很感兴趣
-- 🎯 目标：写出简洁、高效、可维护的代码
-- 📫 欢迎通过 **Issues / Discussions** 交流
+## What I Work With
 
----
+<p>
+  <img src="https://skillicons.dev/icons?i=rust,java,ts,react,python,cpp,go,spring,fastapi,nodejs,vite,tauri,mysql,postgres,redis,docker,git,githubactions" alt="skills" />
+</p>
 
-## 🛠 技术栈
+| Area | Tools and topics |
+| --- | --- |
+| AI engineering | RAG, LangGraph, MCP, model gateway design, OpenAI-compatible APIs |
+| Backend | Spring Boot, Fastify, Axum, REST, SSE, JWT, layered architecture, DDD |
+| Systems | Rust, C++, shell tools, command parsing, message queues, storage experiments |
+| Frontend | React, TypeScript, Vite, Ant Design, Tauri desktop apps |
+| Data and infra | PostgreSQL, pgvector, MySQL, Redis, RabbitMQ, Chroma, SQLite, Docker |
 
-<div align="center">
+## Featured Projects
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+| Project | What it is |
+| --- | --- |
+| [advisor-ai-platform](https://github.com/a-rookie-of-C-language/advisor-ai-platform) | Full-stack AI advisor platform with React, Spring Boot, Python RAG services, PostgreSQL, pgvector, and Ollama integration. |
+| [ferryllm](https://github.com/a-rookie-of-C-language/ferryllm) | Desktop-first LLM gateway and launcher built with Rust and Tauri, supporting OpenAI-compatible, Anthropic-compatible, and Responses-style routing. |
+| [WinuxCmd](https://github.com/a-rookie-of-C-language/WinuxCmd) | GNU-style command toolkit for Windows shells, focused on native Windows workflows and familiar text pipelines. |
+| [AI_Gateway](https://github.com/a-rookie-of-C-language/AI_Gateway) | Rust model gateway with DDD-style layering, tenant API keys, rate limiting, streaming chat, and provider integration boundaries. |
+| [rust-spring](https://github.com/a-rookie-of-C-language/rust-spring) | A Rust re-imagining of Spring-style IoC, dependency injection, configuration, and annotation-like macros. |
+| [arookieofcMQ](https://github.com/a-rookie-of-C-language/arookieofcMQ) | A from-scratch Rust message queue learning project inspired by RocketMQ concepts. |
+| [winuxsh](https://github.com/a-rookie-of-C-language/winuxsh) | A Unix-style shell experience for Windows, written in Rust, with completion, themes, history, scripting, and plugins. |
+| [VD_spring](https://github.com/a-rookie-of-C-language/VD_spring) | Volunteer-hours management system using Spring Boot, Spring Security, MyBatis, RabbitMQ, Redis, MySQL, and Docker. |
+| [WorkBranch](https://github.com/EfficiencAI/WorkBranch) | AI workspace built around LangGraph multi-agent orchestration, code exploration, file operations, planning, and a React canvas UI. |
 
-</div>
+## Current Interests
 
----
+- Building practical AI developer tooling instead of demos that stop at the prompt.
+- Turning backend systems into observable, testable, and maintainable products.
+- Rebuilding infrastructure ideas in Rust to understand the tradeoffs under the API.
+- Making Windows a first-class development environment for command-line workflows.
 
-## 📊 GitHub 数据统计（自托管缓存）
+## GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=a-rookie-of-C-language&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a-rookie-of-C-language&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
+</p>
 
-![GitHub Stats](/assets/stats/github-stats.svg)
+## Contact
 
-![Top Languages](/assets/stats/top-langs.svg)
-
-</div>
-
----
-
-## 📈 贡献热力图
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=a-rookie-of-C-language&theme=tokyo-night&hide_border=true)
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=a-rookie-of-C-language&color=58A6FF&style=flat-square&label=访问次数)
-
-"每一位高级开发工程师都曾是初学者。"
-
-</div>
+- GitHub: [@a-rookie-of-C-language](https://github.com/a-rookie-of-C-language)
+- Repositories: [github.com/a-rookie-of-C-language?tab=repositories](https://github.com/a-rookie-of-C-language?tab=repositories)
